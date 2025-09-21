@@ -20,6 +20,7 @@ def hide_code():
         } 
         $( document ).ready(code_toggle);
     </script>
+    <form><input type="button" value="Afficher/Masquer le code" onclick="code_toggle()"></form>'''))
 
 hide_code()
 
